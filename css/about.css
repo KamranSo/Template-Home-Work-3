@@ -1,0 +1,204 @@
+a {
+    text-decoration: none;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#menu {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    background-color: #ffff;
+    top: 0px;
+    width: 100%;
+    border-bottom: 1px solid #f3f4f5;
+}
+
+#menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: #000;
+    display: inline-block;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .05rem;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none!important;
+}
+
+#slider {
+    background-image: url("../img/hero_2.jpg");
+    background-color: #0000005c;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: color
+}
+
+.slider-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider-text h2 {
+    font-family: 'cinzel';
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.slider-text h2:nth-child(2) {
+    font-size: 5rem;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'cinzel';
+    font-weight: 900;
+    text-transform: uppercase
+}
+
+#about-text {
+    padding: 80px 0;
+}
+
+#about-text img {
+    max-width: 100%;
+}
+
+#about-text h2 {
+    color: #000;
+    font-size: 2rem;
+    font-family: 'cinzel';
+    margin-bottom: 14%;
+}
+
+#about-text p {
+    color: gray;
+    line-height: 27px;
+    font-size: 17px;
+}
+
+#about-wines {
+    background-color: #f3f4f5;
+    padding: 90px;
+}
+
+#about-wines h2 {
+    color: #000;
+    font-size: 2rem;
+    font-family: 'cinzel';
+    margin-bottom: 14%;
+}
+
+#about-wines p {
+    color: gray;
+    line-height: 27px;
+    font-size: 17px;
+}
+
+#about-icons {
+    padding: 80px 0;
+}
+
+#about-icons h2 {
+    color: #25262a;
+    letter-spacing: .05em;
+    font-size: 18px;
+    font-family: 'cinzel';
+}
+
+#about-icons i {
+    font-size: 40px;
+    color: #930077;
+    transform: rotateY(180deg);
+}
+
+#about-icons p {
+    line-height: 27px;
+    color: gray;
+    font-family: 'roboto';
+    font-size: 18px;
+}
+
+#slider-team {
+    padding: 80px 0;
+    background-color: #f3f4f5;
+}
+
+#slider-team img {
+    width: 80px!important;
+    border: 4px solid #930077;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-p {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    text-transform: none;
+    color: gray;
+}
+
+#footer {
+    padding: 140px 0 80px 0;
+}
+
+.center-icons {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center-icons a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.center-icons i {
+    transition: all .3s ease;
+    display: inline-block;
+    border-radius: 50%;
+    background: #930077;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.center-icons i:hover {
+    background: #000;
+    color: #fff;
+    bottom: 5px;
+}
+
+.copyright {
+    text-align: center;
+    color: grey;
+}
+
+.heart {
+    color: red;
+}
